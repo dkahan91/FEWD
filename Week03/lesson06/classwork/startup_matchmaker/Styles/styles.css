@@ -157,3 +157,19 @@ footer{
   padding: 5px;
   border-radius: 3px;
 }
+
+.searchcontainer{
+  width:90%;
+  margin:auto;
+  font-size: 0;
+  background-color: #D3D3D3;
+}
+
+.result-box1{
+  width: 25%;
+  display: inline-block;
+  font-size: 12px;
+  background-color: white;
+  padding: 5px;
+  text-align: center;
+}
