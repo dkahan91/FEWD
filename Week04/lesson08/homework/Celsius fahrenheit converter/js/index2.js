@@ -33,17 +33,22 @@ if(c === ""){
 // change the backgroiund colour based on value of c
 
 
-// document.querySelector("body").style.backgroundColor = color;
-// document.querySelector("body").style.backgroundColor = "green";
+
+
+if(c <= 0){
+  document.querySelector("body").style.backgroundColor. = "red";
+}
+
+// if (c === "blue") {
+//   document.querySelector("body").style.backgroundColor  = "green";
+//   document.querySelector("body").style.color = "white";
 
 // if(c!=="" ||c !== null){
 //   conversion= c * 9/5}
 //   else(){
 //     conversion
 //   }
-
+//
 // if(c === "") {
 //   c = conversion;
 // }
-
-?
