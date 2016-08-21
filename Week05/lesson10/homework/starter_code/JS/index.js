@@ -2,7 +2,8 @@
 
 function findCity() {
   var cityUcaseLcase = document.querySelector("#city-type").value;
-  var city = cityUcaseLcase.toLowerCase();
+  var cityLcase = cityUcaseLcase.toLowerCase();
+  var city = cityLcase.replace(/\s+/g, '');
   // console.log(city)
     // e.preventDefault();
 // pseudo code: take the city entry and pull out the right background picture for the page when updated.
@@ -16,7 +17,7 @@ else if(city === "sydney"){
 else if(city === "austin"){
     document.querySelector("body").className="austin";
 }
-else if(city === "la"){
+else if(city === "losangeles"){
     document.querySelector("body").className="la";
 }
 else if(city === "sf"){
