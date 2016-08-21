@@ -1,7 +1,8 @@
 
 
 function findCity() {
-  var city = document.querySelector("#city-type").value;
+  var cityUcaseLcase = document.querySelector("#city-type").value;
+  var city = cityUcaseLcase.toLowerCase();
   // console.log(city)
     // e.preventDefault();
 // pseudo code: take the city entry and pull out the right background picture for the page when updated.
