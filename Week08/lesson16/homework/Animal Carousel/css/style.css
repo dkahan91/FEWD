@@ -1,0 +1,12 @@
+div{
+  text-align: center;
+  margin: 0 auto;
+}
+
+button
+{
+  text-align: center;
+  display: inline-block;
+  width: 60px;
+  margin: 0px auto;
+}

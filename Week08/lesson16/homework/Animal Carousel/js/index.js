@@ -8,4 +8,32 @@ var animalTextArr = [
   "Snake:Snakes are elongated, legless, carnivorous reptiles of the suborder Serpentes that can be distinguished from legless lizards by their lack of eyelids and external ears."
 ]
 
-$("#blurb-container").html(animalTextArr[1]);
+var animalPicArr =[
+  '<img src="./Images/animals/animal1.jpg">',
+  '<img src="./Images/animals/animal2.jpg">',
+  '<img src="./Images/animals/animal3.jpg">',
+  '<img src="./Images/animals/animal4.jpg">',
+  '<img src="./Images/animals/animal5.jpg">',
+  '<img src="./Images/animals/animal6.jpg">'
+]
+
+$("#image-container").html(animalPicArr[0]);
+
+$("#next").click(nextOption);
+var x = 0
+$("#blurb-container").html(animalTextArr[x]);
+$("#image-container").html(animalPicArr[x]);
+
+function nextOption(puppy){
+  $("#blurb-container").html(animalTextArr[x+1]);
+  $("#image-container").html(animalPicArr[x+1]);
+  x= x+1;
+}
+
+$("#previous").click(previousOption);
+
+function previousOption(puppy){
+  $("#blurb-container").html(animalTextArr[x-1]);
+  $("#image-container").html(animalPicArr[x-1]);
+  x=x-1;
+}
