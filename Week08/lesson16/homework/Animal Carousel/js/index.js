@@ -8,4 +8,4 @@ var animalTextArr = [
   "Snake:Snakes are elongated, legless, carnivorous reptiles of the suborder Serpentes that can be distinguished from legless lizards by their lack of eyelids and external ears."
 ]
 
-$("#blurbcontainer").html(console.log("hello"));
+$("#blurb-container").html(animalTextArr[1]);
