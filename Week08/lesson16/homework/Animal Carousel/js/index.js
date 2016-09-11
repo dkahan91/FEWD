@@ -17,7 +17,6 @@ var animalPicArr =[
   '<img src="./Images/animals/animal6.jpg">'
 ]
 
-$("#image-container").html(animalPicArr[0]);
 
 $("#next").click(nextOption);
 var x = 0
@@ -37,3 +36,8 @@ function previousOption(puppy){
   $("#image-container").html(animalPicArr[x-1]);
   x=x-1;
 }
+
+// if(x===0){
+//   $("#previous").html("");
+// }else{
+//   donothing}
